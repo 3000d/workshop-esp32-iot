@@ -1,13 +1,13 @@
 void setup() {
 // LED sur pin 6
-  pinMode(6, OUTPUT);  
+  pinMode(12, OUTPUT);  
 
 }
 
 void loop() {
-  digitalWrite(6, HIGH);
+  digitalWrite(12, HIGH);
   delay(200);
-  digitalWrite(6, LOW);
+  digitalWrite(12, LOW);
   delay(800);
   
 

@@ -3,8 +3,17 @@
 
 ## **Références et liens**
 
-### **Adafruit.io**
+### All the Internet of Things (Adafruit + Digikey)
+Série de guides et de vidéos sur les différents aspects de l'IoT (infrastructure, protocoles, matériel...)
 
+
+* [Episode 1 : Transports - Power, Distance, and Bit](https://learn.adafruit.com/alltheiot-transports)
+* [Episode 2 : Protocoles](https://learn.adafruit.com/alltheiot-protocols)
+* [Episode 3 : Services](https://www.youtube.com/watch?v=29iR-AzbNSA)
+* [Episode 4 : Adafruit.io](https://www.youtube.com/watch?v=yRqazWCtSgI)
+* 
+
+### Notre outil : **Adafruit.io**
 
 *   [https://learn.adafruit.com/welcome-to-adafruit-io/overview](https://learn.adafruit.com/welcome-to-adafruit-io/overview)
 *   [https://learn.adafruit.com/series/adafruit-io-basics](https://learn.adafruit.com/series/adafruit-io-basics) 
@@ -18,7 +27,7 @@
 - **JSON**
   *   [https://fr.wikipedia.org/wiki/JavaScript_Object_Notation](https://fr.wikipedia.org/wiki/JavaScript_Object_Notation) 
 
-### **Plateformes cloud**
+### **Plateformes iot dans le cloud**
 
 *   [https://www.iotforall.com/what-is-an-iot-platform](https://www.iotforall.com/what-is-an-iot-platform) 
 *   [https://www.iotforall.com/how-to-choose-the-best-iot-platform/](https://www.iotforall.com/how-to-choose-the-best-iot-platform/)
@@ -40,7 +49,7 @@
 *   [https://www.youtube.com/watch?v=3AR432bguOY](https://www.youtube.com/watch?v=3AR432bguOY) 
 
 ### **APIs**
-*   [https://www.illustradata.com/api-rest/](https://www.illustradata.com/api-rest/)** **
+*   [https://www.illustradata.com/api-rest/](https://www.illustradata.com/api-rest/)
 *   [https://www.journaldunet.com/solutions/expert/69331/le-b-a-ba-des-api.shtml](https://www.journaldunet.com/solutions/expert/69331/le-b-a-ba-des-api.shtml)
 *   [https://www.kissmyfrogs.com/mehdi-medjaoui-oauth-api-startup/](https://www.kissmyfrogs.com/mehdi-medjaoui-oauth-api-startup/) 
 *   [https://a16z.com/2018/03/09/api-world-summit/](https://a16z.com/2018/03/09/api-world-summit/) 
@@ -52,8 +61,6 @@
 *   IFTTT :
     *   [https://ifttt.com](https://ifttt.com) 
     *   [https://www.instagram.com/p/BeIp1H0F55c/](https://www.instagram.com/p/BeIp1H0F55c/) 
-*   Utilisation du framework et de la plateforme aRest : [https://www.hackster.io/wesee/control-your-mkr1000-with-arest-framework-ba6619](https://www.hackster.io/wesee/control-your-mkr1000-with-arest-framework-ba6619) 
-    *   aRest : [https://arest.io/](https://arest.io/)
 *   Blynk : [https://blynk.cc](https://blynk.cc) 
 
 <!-- Docs to Markdown version 1.0β15 -->

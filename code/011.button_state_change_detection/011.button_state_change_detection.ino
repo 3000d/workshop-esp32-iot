@@ -1,5 +1,5 @@
 #define LED_PIN 12
-#define BTN_PIN 8
+#define BTN_PIN 32
 
 bool prevState = LOW;
 bool ledState  = LOW;
@@ -7,7 +7,7 @@ bool ledState  = LOW;
 void setup() {
   pinMode(LED_PIN, OUTPUT);
   pinMode(BTN_PIN, INPUT);
-  Serial.begin(9600);
+  Serial.begin(115200);
 
 }
 
@@ -25,4 +25,3 @@ void loop() {
   prevState = state;
 
 }
-

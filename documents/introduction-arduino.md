@@ -1,6 +1,48 @@
 
 #  Introduction à la programmation Arduino
 
+- [Introduction à la programmation Arduino](#introduction-%C3%A0-la-programmation-arduino)
+  - [Introduction](#introduction)
+    - [Qu'est-ce qu'un microcontrôleur](#quest-ce-quun-microcontr%C3%B4leur)
+  - [Installation drivers et IDE](#installation-drivers-et-ide)
+    - [Qu'est-ce qu'un IDE](#quest-ce-quun-ide)
+    - [Installation de l'IDE Arduino](#installation-de-lide-arduino)
+- [Introduction à la programmation](#introduction-%C3%A0-la-programmation)
+  - [Les instructions](#les-instructions)
+    - [Exemples](#exemples)
+  - [Les variables](#les-variables)
+  - [Les conditions **(if, else, else if)**](#les-conditions-if-else-else-if)
+  - [Les boucles **(while, for)**](#les-boucles-while-for)
+  - [Les fonctions](#les-fonctions)
+  - [Exemples](#exemples-1)
+  - [Les bibliothèques](#les-biblioth%C3%A8ques)
+  - [Structure d'un programme Arduino](#structure-dun-programme-arduino)
+    - [Exemples / Exercices](#exemples--exercices)
+      - [Digital](#digital)
+      - [Analogique](#analogique)
+- [**Références**](#r%C3%A9f%C3%A9rences)
+  - [**Arduino**](#arduino)
+  - [**Adafruit Feather Huzzah32 (esp32)**](#adafruit-feather-huzzah32-esp32)
+  - [**Inspiration**](#inspiration)
+  - [**Chaînes Youtube**](#cha%C3%AEnes-youtube)
+  - [**Fournisseurs**](#fournisseurs)
+- [ANNEXE: Memento](#annexe-memento)
+  - [ARDUINO MEMENTO CODE](#arduino-memento-code)
+  - [Lexique et syntaxe](#lexique-et-syntaxe)
+  - [Variables](#variables)
+  - [**Opérateurs :**](#op%C3%A9rateurs)
+  - [**Comparateurs :**](#comparateurs)
+  - [**Types de données**](#types-de-donn%C3%A9es)
+  - [**3 TYPES DE BOUCLES**](#3-types-de-boucles)
+    - [WHILE](#while)
+    - [DO WHILE](#do-while)
+    - [FOR](#for)
+    - [FONCTIONS](#fonctions)
+    - [**CONDITIONS (contrôle)**](#conditions-contr%C3%B4le)
+    - [**Autre exemple**](#autre-exemple)
+  - [Quelques termes récurrents à arduino :](#quelques-termes-r%C3%A9currents-%C3%A0-arduino)
+ 
+
 ## Introduction
 ### Qu'est-ce qu'un microcontrôleur
 
@@ -95,7 +137,7 @@ Les bibliothèques (ou librairies) sont un ensemble de fonctions réunies pour r
 
 **`void loop()`** : fonction exécutée en boucle de manière continue tant que le microcontrôleur est sous tension. C'est dans cette 'boucle' que vous écrirez la plupart du code de vos projets.
 
-### Exemples
+### Exemples / Exercices
 
 #### Digital
 
@@ -126,23 +168,20 @@ Les bibliothèques (ou librairies) sont un ensemble de fonctions réunies pour r
 
 # **Références**
 
-## **Adafruit Feather Huzzah32 (esp32)**
-
-*   **Dev Board :** [https://learn.adafruit.com/adafruit-huzzah32-esp32-feather/overview](https://learn.adafruit.com/adafruit-huzzah32-esp32-feather/overview) 
-*   **Esp32 :** [https://www.espressif.com/en/products/hardware/esp32/overview](https://www.espressif.com/en/products/hardware/esp32/overview) 
-
 ## **Arduino**
-
-
-
 *   Fondations : [https://www.arduino.cc/en/Tutorial/Foundations](https://www.arduino.cc/en/Tutorial/Foundations) 
 *   Référence du langage : [http://arduino.cc/reference/fr](http://arduino.cc/reference/fr) 
 *   ITP/Tom Igoe (vimeo) [https://vimeo.com/groups/itpcom](https://vimeo.com/groups/itpcom) 
 *   IDE arduino : [https://create.arduino.cc/projecthub/Arduino_Genuino/getting-started-with-the-arduino-desktop-ide-623be4?ref=user&ref_id=65561&offset=20](https://create.arduino.cc/projecthub/Arduino_Genuino/getting-started-with-the-arduino-desktop-ide-623be4?ref=user&ref_id=65561&offset=20)  
 
+## **Adafruit Feather Huzzah32 (esp32)**
+
+*   **Dev Board :** [https://learn.adafruit.com/adafruit-huzzah32-esp32-feather/overview](https://learn.adafruit.com/adafruit-huzzah32-esp32-feather/overview)
+    *   pinout (répartition des broches) : [https://learn.adafruit.com/adafruit-huzzah32-esp32-feather/pinouts](https://learn.adafruit.com/adafruit-huzzah32-esp32-feather/pinouts) 
+*   **Esp32 :** [https://www.espressif.com/en/products/hardware/esp32/overview](https://www.espressif.com/en/products/hardware/esp32/overview) 
+
+
 ## **Inspiration**
-
-
 
 *   [https://blog.arduino.cc](http://blog.arduino.cc)
 *   [https://blog.adafruit.com](http://blog.adafruit.com)
@@ -157,7 +196,7 @@ Les bibliothèques (ou librairies) sont un ensemble de fonctions réunies pour r
 
 
 *   Great Scott : [https://www.youtube.com/channel/UC6mIxFTvXkWQVEHPsEdflzQ](https://www.youtube.com/channel/UC6mIxFTvXkWQVEHPsEdflzQ) 
-*   Andreas Spiess : [https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ](https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ) 
+*   Andreas Spiess : Spécialisé dans les cartes de type esp8866 et esp32 [https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ](https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ) 
 *   Arduino : [https://www.youtube.com/channel/UCUpmmT1Gm_raVpqSvQYyd2Q](https://www.youtube.com/channel/UCUpmmT1Gm_raVpqSvQYyd2Q) 
 *   u=R/I : [https://www.youtube.com/channel/UCVqx3vXNghSqUcVg2nmegYA](https://www.youtube.com/channel/UCVqx3vXNghSqUcVg2nmegYA) 
 *   Le labo d'Heliox : [https://www.youtube.com/channel/UCPFChjpOgkUqckj3378jt5w](https://www.youtube.com/channel/UCPFChjpOgkUqckj3378jt5w) 
@@ -176,7 +215,10 @@ Les bibliothèques (ou librairies) sont un ensemble de fonctions réunies pour r
     *   Exp-tech : [https://exp-tech.de](https://exp-tech.de) 
     *   Mouser : [https://mouser.be](https://mouser.be) (pro only)
 
-# **ANNEXE : Memento**
+
+----
+
+# ANNEXE: Memento
 
 
 	 	 	 	
