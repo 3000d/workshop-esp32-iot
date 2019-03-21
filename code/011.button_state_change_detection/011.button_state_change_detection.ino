@@ -3,6 +3,7 @@
 
 bool prevState = LOW;
 bool ledState  = LOW;
+int compteur = 0;
 
 void setup() {
   pinMode(LED_PIN, OUTPUT);
@@ -16,8 +17,10 @@ void loop() {
 
   if (state != prevState) {
     if (state == HIGH) {   
+    
       ledState = ! ledState;
       digitalWrite(LED_PIN, ledState);
+    
       Serial.println("on");
     }
     delay(50);

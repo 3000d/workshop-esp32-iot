@@ -1,7 +1,6 @@
 void setup() {
   Serial.begin(9600);
-  // modifie la résolution de l'ADC
-  // analogReadResolution(12);
+  
 }
 
 void loop() {

@@ -1,5 +1,5 @@
 void setup() {
-// LED sur pin 6
+// LED sur pin 12
   pinMode(12, OUTPUT);  
 
 }

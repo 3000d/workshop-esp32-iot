@@ -2,7 +2,7 @@
  * Utiliser les tableaux (array) et les boucles 
  * pour controler plusieurs leds connectées à des broches différentes de la carte 
  */
- // instruction au compilateur
+ // directive au compilateur
 #define NBR_LEDS 3
 // définir un tableau (array) de références aux broches sur lesquelles 
 int leds_pins[] = {12,27,33};

@@ -172,7 +172,8 @@ Les bibliothèques (ou librairies) sont un ensemble de fonctions réunies pour r
 *   Fondations : [https://www.arduino.cc/en/Tutorial/Foundations](https://www.arduino.cc/en/Tutorial/Foundations) 
 *   Référence du langage : [http://arduino.cc/reference/fr](http://arduino.cc/reference/fr) 
 *   ITP/Tom Igoe (vimeo) [https://vimeo.com/groups/itpcom](https://vimeo.com/groups/itpcom) 
-*   IDE arduino : [https://create.arduino.cc/projecthub/Arduino_Genuino/getting-started-with-the-arduino-desktop-ide-623be4?ref=user&ref_id=65561&offset=20](https://create.arduino.cc/projecthub/Arduino_Genuino/getting-started-with-the-arduino-desktop-ide-623be4?ref=user&ref_id=65561&offset=20)  
+*   IDE arduino : [https://create.arduino.cc/projecthub/Arduino_Genuino/getting-started-with-the-arduino-desktop-ide-623be4?ref=user&ref_id=65561&offset=20](https://create.arduino.cc/projecthub/Arduino_Genuino/getting-started-with-the-arduino-desktop-ide-623be4?ref=user&ref_id=65561&offset=20)
+*   La librairie Wire sur le [site d'Arduino](https://www.arduino.cc/en/Reference/Wire)
 
 ## **Adafruit Feather Huzzah32 (esp32)**
 

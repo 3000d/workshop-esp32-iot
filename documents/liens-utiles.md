@@ -11,12 +11,27 @@ Série de guides et de vidéos sur les différents aspects de l'IoT (infrastruct
 * [Episode 2 : Protocoles](https://learn.adafruit.com/alltheiot-protocols)
 * [Episode 3 : Services](https://www.youtube.com/watch?v=29iR-AzbNSA)
 * [Episode 4 : Adafruit.io](https://www.youtube.com/watch?v=yRqazWCtSgI)
-* 
+
+### Le capteur Bosh BME680
+
+* [Fiche technique](https://cdn-shop.adafruit.com/product-files/3660/BME680.pdf)
+* [Breakout Adafruit](https://learn.adafruit.com/adafruit-bme680-humidity-temperature-barometic-pressure-voc-gas)
+* [Article du blog Arduino103 (en français)](https://arduino103.blogspot.com/2018/03/le-bme680-senseur-environnemental.html)
+* [Les Composés organiques volatils](https://fr.wikipedia.org/wiki/Compos%C3%A9_organique_volatil)
+
+### La communication i2c (Inter-Integrated Circuit)
+
+Le protocole i2c a été conçu pour permetttre à plusieurs circuits intégrés "esclaves" de communiquer avec une ou plusieurs puces "maîtres".
+La communication utilises deux lignes et passe par deux signaux (numériques): SCL et SDA : (Signal CLock line et Signal DAta line)
+
+* [Sparkfun Learn](https://learn.sparkfun.com/tutorials/i2c/all)
 
 ### Notre outil : **Adafruit.io**
 
 *   [https://learn.adafruit.com/welcome-to-adafruit-io/overview](https://learn.adafruit.com/welcome-to-adafruit-io/overview)
 *   [https://learn.adafruit.com/series/adafruit-io-basics](https://learn.adafruit.com/series/adafruit-io-basics) 
+
+
 
 ### **Internet, http, REST, json**
 
