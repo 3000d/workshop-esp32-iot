@@ -16,13 +16,23 @@ void setup() {
   
 
   // méthode correcte (plus efficace)
-  for(int i = 0; i < NBR_LEDS; i++){
+  
+  for(int i = 0; i < NBR_LEDS; i = i + 1){
     pinMode(leds_pins[i], OUTPUT);
   }
+  /*
+  int i = 0;
+  while(i < NBR_LEDS){
+    pinMode(leds_pins[i], OUTPUT);
+    i = i + 1;
+  }
+  */
 
 }
 
 void loop() {
+
+ 
   for(int i = 0; i < NBR_LEDS; i++){
     digitalWrite(leds_pins[i], HIGH);
     delay(30);

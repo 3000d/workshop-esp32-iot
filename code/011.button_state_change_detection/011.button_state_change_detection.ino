@@ -22,6 +22,8 @@ void loop() {
       digitalWrite(LED_PIN, ledState);
     
       Serial.println("on");
+    }else{
+      Serial.println("off");
     }
     delay(50);
   }
