@@ -6,7 +6,6 @@
 ### All the Internet of Things (Adafruit + Digikey)
 Série de guides et de vidéos sur les différents aspects de l'IoT (infrastructure, protocoles, matériel...)
 
-
 * [Episode 1 : Transports - Power, Distance, and Bit](https://learn.adafruit.com/alltheiot-transports)
 * [Episode 2 : Protocoles](https://learn.adafruit.com/alltheiot-protocols)
 * [Episode 3 : Services](https://www.youtube.com/watch?v=29iR-AzbNSA)
@@ -24,17 +23,22 @@ Série de guides et de vidéos sur les différents aspects de l'IoT (infrastruct
 Le protocole i2c a été conçu pour permetttre à plusieurs circuits intégrés "esclaves" de communiquer avec une ou plusieurs puces "maîtres".
 La communication utilises deux lignes et passe par deux signaux (numériques): SCL et SDA : (Signal CLock line et Signal DAta line)
 
-* [Sparkfun Learn](https://learn.sparkfun.com/tutorials/i2c/all)
+* L'intéressant article de [Sparkfun Learn](https://learn.sparkfun.com/tutorials/i2c/all)
 
-### Notre outil : **Adafruit.io**
+### **Adafruit.io**
 
 *   [https://learn.adafruit.com/welcome-to-adafruit-io/overview](https://learn.adafruit.com/welcome-to-adafruit-io/overview)
 *   [https://learn.adafruit.com/series/adafruit-io-basics](https://learn.adafruit.com/series/adafruit-io-basics) 
 
+### Autres plateformes de développement 
+
+* [Circuit Playground](https://www.adafruit.com/product/3333)
+* [MicroBit](https://www.microbit.org/)
+* Environnements de développement graphiques
+  * [Makecode](https://www.microsoft.com/en-us/makecode?rtc=1)
 
 
 ### **Internet, http, REST, json**
-
 
 - **HTTP**
   *   [https://fr.wikipedia.org/wiki/Hypertext_Transfer_Protocol](https://fr.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
@@ -59,9 +63,10 @@ La communication utilises deux lignes et passe par deux signaux (numériques): S
 *   [https://www.hivemq.com/blog/mqtt-essentials-part-1-introducing-mqtt](https://www.hivemq.com/blog/mqtt-essentials-part-1-introducing-mqtt) 
 
 ### **Node-RED**
-*   [https://nodered.org/](https://nodered.org/) 
+*   [Site officiel](https://nodered.org/) 
 *   [http://noderedguide.com/](http://noderedguide.com/) 
-*   [https://www.youtube.com/watch?v=3AR432bguOY](https://www.youtube.com/watch?v=3AR432bguOY) 
+*   [https://www.youtube.com/watch?v=3AR432bguOY](https://www.youtube.com/watch?v=3AR432bguOY)
+*   [Fred](https://fred.sensetecnic.com/) : Une instance node-red dans le cloud
 
 ### **APIs**
 *   [https://www.illustradata.com/api-rest/](https://www.illustradata.com/api-rest/)
@@ -77,5 +82,6 @@ La communication utilises deux lignes et passe par deux signaux (numériques): S
     *   [https://ifttt.com](https://ifttt.com) 
     *   [https://www.instagram.com/p/BeIp1H0F55c/](https://www.instagram.com/p/BeIp1H0F55c/) 
 *   Blynk : [https://blynk.cc](https://blynk.cc) 
+*   [JLCPCB](https://jlcpcb.com/) : fabrication de circuits imprimés bon marché)
 
 <!-- Docs to Markdown version 1.0β15 -->
